@@ -1,0 +1,58 @@
+form {
+	width: 50%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 20px;
+}
+label {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+input[type="text"], input[type="password"], input[type="tel"], input[type="date"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+input[type="submit"] {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+body {
+	background-color: #fff;
+	color: #000;
+	font-size: 0.9em;
+	font-family: sans-serif, helvetica;
+	margin: 0;
+	padding: 0;
+}
+:link {
+	color: #00f;
+}
+:visited {
+	color: #c00;
+}
+a:hover {
+	color: #f50;
+}
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 0.6em 2em 0.4em;
+	background-color: #22437f;
+	color: #fff;
+	font-weight: normal;
+	font-size: 1.75em;
+	border-bottom: 2px solid #000;
+}
+
+
